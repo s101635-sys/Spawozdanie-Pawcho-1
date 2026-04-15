@@ -33,8 +33,13 @@ CMD ["apache2ctl", "-D", "FOREGROUND"]
 ## Warstwy
 docker history sprawozdanie1
 IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
+
 41cd2a2b3ce3   5 minutes ago   CMD ["apache2ctl" "-D" "FOREGROUND"]            0B        buildkit.dockerfile.v0
+
 <missing>      5 minutes ago   EXPOSE [80/tcp]                                 0B        buildkit.dockerfile.v0
+
 <missing>      5 minutes ago   COPY index.html /var/www/html/                  20.5kB    buildkit.dockerfile.v0
+
 <missing>      5 minutes ago   RUN /bin/sh -c apt update && apt upgrade -y...  142MB     buildkit.dockerfile.v0
+
 <missing>      5 minutes ago   LABEL author=s101635@pollub.edu.pl Nowak Tom... 0B        buildkit.dockerfile.v0
