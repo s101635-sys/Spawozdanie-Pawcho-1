@@ -32,6 +32,7 @@ CMD ["apache2ctl", "-D", "FOREGROUND"]
 ```
 ## Warstwy
 docker history sprawozdanie1
+
 IMAGE          CREATED         CREATED BY                                      SIZE      COMMENT
 
 41cd2a2b3ce3   5 minutes ago   CMD ["apache2ctl" "-D" "FOREGROUND"]            0B        buildkit.dockerfile.v0
